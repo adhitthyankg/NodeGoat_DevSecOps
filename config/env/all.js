@@ -1,6 +1,6 @@
 const port = process.env.PORT || 4000;
 
-let db = process.env.MONGODB_URI || "mongodb://mongo_network:27017/nodegoat";
+let db = process.env.MONGODB_URI || "mongodb://mongo:27017/nodegoat";
 
 module.exports = {
     port,
